@@ -3,7 +3,7 @@ import React from "react";
 import styleContato from "./CardContatos.module.css";
 
 
-export function CardContato({avatar, name, numero }) {
+export function CardContato({avatar, name, numero, }) {
   return (
     <div className={styleContato.card}>
       <img className={styleContato.avatar} src={avatar} alt="Avatar" />
