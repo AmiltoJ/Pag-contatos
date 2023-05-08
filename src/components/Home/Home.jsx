@@ -39,7 +39,7 @@ export function Home() {
           <div className={style.listaContatos}>
 
           <div className={style.listaCatalogo}>
-          <h1 className={style.letraCatalogo}>C</h1>
+        <h1 className={style.letraCatalogo}>C</h1>
           <div className={style.contatoCatalogo}>
     <CardContato
     avatar="https://randomuser.me/api/portraits/men/40.jpg"
@@ -49,7 +49,7 @@ export function Home() {
 
 
     avatar="https://avatars.githubusercontent.com/u/106719508?v=4"
-    name="Willian Schreiner"
+    name="Cillian Cchreiner"
     numero= "(55) 99453-7259"/>
   </div> 
 
@@ -59,11 +59,23 @@ export function Home() {
      <h1 className={style.letraCatalogo}>J</h1>
     <div className={style.contatoCatalogo}>
     <CardContato
-    avatar="https://randomuser.me/api/portraits/men/58.jpg"
+    avatar="https://randomuser.me/api/portraits/men/1.jpg"
     name="Jonas Gabriel"
     numero= "(55) 99994-3270"/>
   </div>
     </div>
+
+    <div className={style.listaCatalogo}>
+        <h1 className={style.letraCatalogo}>W</h1>
+          <div className={style.contatoCatalogo}>
+    <CardContato
+    avatar="https://avatars.githubusercontent.com/u/106719508?v=4"
+    name="Willian Schreiner"
+    numero= "(55) 99453-7259"/>
+  </div> 
+
+</div>
+
       </div>
         </div>
           </div>    
