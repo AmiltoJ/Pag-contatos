@@ -43,7 +43,7 @@ export function Home() {
           <div className={style.contatoCatalogo}>
     <CardContato
     avatar="https://randomuser.me/api/portraits/men/40.jpg"
-    name="Christina Campbell"
+    name="Carlinho Arrocha"
     numero= "(55) 7433-1539" />
     <CardContato
 
@@ -59,8 +59,8 @@ export function Home() {
      <h1 className={style.letraCatalogo}>J</h1>
     <div className={style.contatoCatalogo}>
     <CardContato
-    avatar="https://randomuser.me/api/portraits/men/1.jpg"
-    name="Jonas Gabriel"
+    avatar="https://catracalivre.com.br/wp-content/uploads/2019/11/jojo.jpg"
+    name="JoJo Todynho"
     numero= "(55) 99994-3270"/>
   </div>
     </div>

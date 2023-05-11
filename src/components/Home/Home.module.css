@@ -53,27 +53,27 @@
   .pesquisa {
     align-items: center;
     margin-bottom: 1.5rem;
+    border: transparent;
+    background-color: #540a0a;
+    margin-right: 2rem;
+    
   }
   .buttomPesquisa {
     background-color: #540a0a;
     height: 3.3rem;
     width: 5rem;
-    border-width: 0.1rem;
-    border-color: #ff01c0;
+    border: transparent;
      color: #fff;
      font-size: 1.5rem;
-     box-shadow: 1px 2px 5px  #87b10a;
      
   }
   .inputPesquisa {
   background-color: #540a0a;
-  height: 3.5rem;
-  width: 43rem;
-  border-width: 0.1rem;
-  border-color: #01eeff;
+  height: 3.4rem;
+  width: 42rem;
+  border:transparent;
      font-size: medium;
      color: #fff;
-     box-shadow: 1px 2px 5px #540a0a
   
   }
   .listaContatos {

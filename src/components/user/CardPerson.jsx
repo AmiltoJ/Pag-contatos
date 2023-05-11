@@ -6,13 +6,13 @@ import stylePerson from "./CardPerson.module.css";
     return (
       <div className={stylePerson.card}>
         <img src={cover} alt="Cover" />
-        <i mg className={stylePerson.avatar} src={avatar} alt="Avatar" />
+        <img className={stylePerson.avatar} src={avatar} alt="Avatar" />
         <p className={stylePerson.p1}>{name}</p>
         <p className={stylePerson.p2}>{office}</p>
-        <span className={stylePerson.p3}>#CSS</span>
-        <span>#React-Native</span>
-        <span>#JavaScript</span>
-        <span>#C++</span>
+        <div>
+        <span className={stylePerson.span}>Frontend</span>
+        <span className={stylePerson.span}>Backend</span>
+        </div>
       </div>
     );
   }

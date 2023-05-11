@@ -92,6 +92,22 @@
   line-height: 160%;
   box-shadow: 1px 2px 9px hsl(126, 98%, 50%);
 }
-.span {
+
+span {
+  color: #01eeff;
+  background-color: #032a33;
+  border-radius: 5px;
+  align-items: center;
+  font-size: 1.1rem;   
+  flex-direction: column; 
+  flex-wrap: wrap;
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: 1px solid #ff01c0;
+  box-shadow: 1px 2px 5px #87b10a;
+  margin-left: 0.5rem;
 
 }
+
+
